@@ -43,7 +43,7 @@ body {
   grid-gap: 10px;
   grid-template-columns: 120px 120px 120px;
   grid-template-areas: ;
-  "........ header header"
+  "....... header header"
   "sidebare content content"
   "footer footer footer"
   background-color: #fff;
