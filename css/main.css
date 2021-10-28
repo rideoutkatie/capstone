@@ -44,7 +44,7 @@ body {
   grid-template-columns: 120px 120px 120px;
   grid-template-areas: 
   "....... header header"
-  "sidebare content content"
+  "sidebar content content"
   "footer footer footer";
   background-color: #fff;
   color:  #444;
