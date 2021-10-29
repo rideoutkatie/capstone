@@ -111,6 +111,7 @@ body {
 
 .header {
   grid-area: header;
+
 }
 
 .footer {
@@ -126,7 +127,7 @@ body {
   ". header header"
   "sidebar content content"
   "sidebar description description"
-  ". video video"
+  "sidebar video ."
   ". footer footer";
   background-color: #fff;
   color:  black;
