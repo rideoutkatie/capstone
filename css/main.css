@@ -89,55 +89,7 @@ textarea {
 
 body {
   margin: 40px;
-}
-
-.sidebar {
-    grid-area: sidebar;
-  }
-
-  .content {
-    grid-area: content;
-  }
-
-  .header {
-    grid-area: header;
-  }
-
-  .footer {
-    grid-area: footer;
-  }
-
-
-  .wrapper {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 120px 120px 120px;
-    grid-template-areas:
-    "....... header header"
-    "sidebar content content"
-    "footer  footer  footer";
-  
-  }
-
-
-.box {
-
-  border-radius: 5px;
-  padding: 10px;
-  font-size: 150%;
-}
-
-.header,
-.footer {
-
-}
-
-
-
-
-/*
-body {
-  margin:  40px;
+  font-family: sans-serif;
 }
 
 .sidebar {
@@ -146,6 +98,15 @@ body {
 
 .content {
   grid-area: content;
+  font-size: 16px;
+}
+
+.description{
+  grid-area: description;
+}
+
+.video {
+  grid-area: video;
 }
 
 .header {
@@ -159,31 +120,32 @@ body {
 .wrapper {
   display:  grid;
   grid-gap: 10px;
-  grid-template-columns: 120px 120px 120px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
   grid-template-areas: 
-  "....... header header"
+  ". header header"
   "sidebar content content"
-  "footer footer footer";
+  "sidebar description description"
+  ". video video"
+  ". footer footer";
   background-color: #fff;
-  color:  #444;
+  color:  black;
+  border: 1px black solid;
 }
 
 .box {
-  background-color: #444;
-  color: #fff;
-  border-radius: 5px;
+  background-color: #e7936a;
+  color: black;
+  border-radius: 1px;
   padding:  10px;
-  font-size: 150%;
 }
 
 .header,
 .footer {
-  background-color: #999;
-  border: 1px white solid;
+  background-color: #f5bd76;
 }
 
 
-*/
 
 
 
